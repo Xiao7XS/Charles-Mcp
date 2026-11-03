@@ -1,0 +1,2435 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE charles-session SYSTEM "https://www.charlesproxy.com/dtd/charles-session-1_2.dtd">
+<charles-session>
+  <transaction status="COMPLETE" method="GET" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/r/json" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:14.196Z" startTimeMillis="1793743874196" requestBeginTime="2026-11-03T22:11:14.197Z" requestBeginTimeMillis="1793743874197" requestTime="2026-11-03T22:11:14.197Z" requestTimeMillis="1793743874197" responseTime="2026-11-03T22:11:14.217Z" responseTimeMillis="1793743874217" endTime="2026-11-03T22:11:14.218Z" endTimeMillis="1793743874218" duration="22" dnsDuration="0" connectDuration="1" requestDuration="0" responseDuration="1" latency="20" overallSpeed="18500" requestSpeed="0" responseSpeed="257000" totalSize="407">
+    <request headers="150" body="0">
+      <headers>
+        <first-line><![CDATA[GET /r/json HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, br, zstd</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+    </request>
+    <response status="200" headers="208" body="49" mime-type="application/json" charset="utf-8">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:14 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/json; charset=utf-8</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>49</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[{"msg": "你好", "items": [1, 2, 3], "ok": true}]]></body>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="GET" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/r/json-bom" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:14.220Z" startTimeMillis="1793743874220" requestBeginTime="2026-11-03T22:11:14.220Z" requestBeginTimeMillis="1793743874220" requestTime="2026-11-03T22:11:14.220Z" requestTimeMillis="1793743874220" responseTime="2026-11-03T22:11:14.245Z" responseTimeMillis="1793743874245" endTime="2026-11-03T22:11:14.289Z" endTimeMillis="1793743874289" duration="69" requestDuration="0" responseDuration="44" latency="25" overallSpeed="5072" requestSpeed="0" responseSpeed="4454" totalSize="350">
+    <request headers="154" body="0">
+      <headers>
+        <first-line><![CDATA[GET /r/json-bom HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, br, zstd</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+    </request>
+    <response status="200" headers="144" body="52" mime-type="application/json">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:14 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/json</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>52</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[ï»¿{"msg": "ä½ å¥½", "items": [1, 2, 3], "ok": true}]]></body>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="GET" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/r/jsonp" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:14.290Z" startTimeMillis="1793743874290" requestBeginTime="2026-11-03T22:11:14.291Z" requestBeginTimeMillis="1793743874291" requestTime="2026-11-03T22:11:14.291Z" requestTimeMillis="1793743874291" responseTime="2026-11-03T22:11:14.310Z" responseTimeMillis="1793743874310" endTime="2026-11-03T22:11:14.353Z" endTimeMillis="1793743874353" duration="62" requestDuration="0" responseDuration="43" latency="19" overallSpeed="5725" requestSpeed="0" responseSpeed="4744" totalSize="355">
+    <request headers="151" body="0">
+      <headers>
+        <first-line><![CDATA[GET /r/jsonp HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, br, zstd</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+    </request>
+    <response status="200" headers="150" body="54" mime-type="application/javascript">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:14 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/javascript</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>54</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[cb({"msg": "ä½ å¥½", "items": [1, 2, 3], "ok": true});]]></body>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="GET" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/r/json-as-html" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:14.354Z" startTimeMillis="1793743874354" requestBeginTime="2026-11-03T22:11:14.354Z" requestBeginTimeMillis="1793743874354" requestTime="2026-11-03T22:11:14.354Z" requestTimeMillis="1793743874354" responseTime="2026-11-03T22:11:14.375Z" responseTimeMillis="1793743874375" endTime="2026-11-03T22:11:14.417Z" endTimeMillis="1793743874417" duration="63" requestDuration="0" responseDuration="42" latency="21" overallSpeed="5460" requestSpeed="0" responseSpeed="4428" totalSize="344">
+    <request headers="158" body="0">
+      <headers>
+        <first-line><![CDATA[GET /r/json-as-html HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, br, zstd</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+    </request>
+    <response status="200" headers="137" body="49" mime-type="text/html">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:14 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>text/html</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>49</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[{"msg": "ä½ å¥½", "items": [1, 2, 3], "ok": true}]]></body>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="GET" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/r/gzip-json" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:14.418Z" startTimeMillis="1793743874418" requestBeginTime="2026-11-03T22:11:14.418Z" requestBeginTimeMillis="1793743874418" requestTime="2026-11-03T22:11:14.418Z" requestTimeMillis="1793743874418" responseTime="2026-11-03T22:11:14.438Z" responseTimeMillis="1793743874438" endTime="2026-11-03T22:11:14.485Z" endTimeMillis="1793743874485" duration="67" requestDuration="0" responseDuration="47" latency="20" overallSpeed="5805" requestSpeed="0" responseSpeed="4978" totalSize="389">
+    <request headers="155" body="0">
+      <headers>
+        <first-line><![CDATA[GET /r/gzip-json HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, br, zstd</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+    </request>
+    <response status="200" headers="168" body="66" mime-type="application/json" contentEncoding="gzip">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:14 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/json</value>
+        </header>
+        <header>
+          <name>Content-Encoding</name>
+          <value>gzip</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>66</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body decoded="true"><![CDATA[{"msg": "ä½ å¥½", "items": [1, 2, 3], "ok": true}]]></body>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="GET" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/r/br-json" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:14.486Z" startTimeMillis="1793743874486" requestBeginTime="2026-11-03T22:11:14.486Z" requestBeginTimeMillis="1793743874486" requestTime="2026-11-03T22:11:14.486Z" requestTimeMillis="1793743874486" responseTime="2026-11-03T22:11:14.506Z" responseTimeMillis="1793743874506" endTime="2026-11-03T22:11:14.549Z" endTimeMillis="1793743874549" duration="63" requestDuration="0" responseDuration="43" latency="20" overallSpeed="5904" requestSpeed="0" responseSpeed="5093" totalSize="372">
+    <request headers="153" body="0">
+      <headers>
+        <first-line><![CDATA[GET /r/br-json HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, br, zstd</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+    </request>
+    <response status="200" headers="166" body="53" mime-type="application/json" contentEncoding="br">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:14 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/json</value>
+        </header>
+        <header>
+          <name>Content-Encoding</name>
+          <value>br</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>53</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body decoded="true"><![CDATA[{"msg": "ä½ å¥½", "items": [1, 2, 3], "ok": true}]]></body>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="GET" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/r/zstd-json" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:14.550Z" startTimeMillis="1793743874550" requestBeginTime="2026-11-03T22:11:14.550Z" requestBeginTimeMillis="1793743874550" requestTime="2026-11-03T22:11:14.550Z" requestTimeMillis="1793743874550" responseTime="2026-11-03T22:11:14.575Z" responseTimeMillis="1793743874575" endTime="2026-11-03T22:11:14.617Z" endTimeMillis="1793743874617" duration="67" requestDuration="0" responseDuration="42" latency="25" overallSpeed="5686" requestSpeed="0" responseSpeed="5380" totalSize="381">
+    <request headers="155" body="0">
+      <headers>
+        <first-line><![CDATA[GET /r/zstd-json HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, br, zstd</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+    </request>
+    <response status="200" headers="168" body="58" mime-type="application/json" contentEncoding="zstd">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:14 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/json</value>
+        </header>
+        <header>
+          <name>Content-Encoding</name>
+          <value>zstd</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>58</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body encoding="base64"><![CDATA[KLUv/SAxiQEAeyJtc2ciOiAi5L2g5aW9IiwgIml0ZW1zIjogWzEsIDIsIDNdLCAib2siOiB0cnVlfQ==]]></body>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="GET" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/r/deflate-json" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:14.618Z" startTimeMillis="1793743874618" requestBeginTime="2026-11-03T22:11:14.619Z" requestBeginTimeMillis="1793743874619" requestTime="2026-11-03T22:11:14.619Z" requestTimeMillis="1793743874619" responseTime="2026-11-03T22:11:14.641Z" responseTimeMillis="1793743874641" endTime="2026-11-03T22:11:14.681Z" endTimeMillis="1793743874681" duration="62" requestDuration="0" responseDuration="40" latency="22" overallSpeed="6225" requestSpeed="0" responseSpeed="5700" totalSize="386">
+    <request headers="158" body="0">
+      <headers>
+        <first-line><![CDATA[GET /r/deflate-json HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, br, zstd</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+    </request>
+    <response status="200" headers="171" body="57" mime-type="application/json" contentEncoding="deflate">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:14 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/json</value>
+        </header>
+        <header>
+          <name>Content-Encoding</name>
+          <value>deflate</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>57</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body decoded="true"><![CDATA[{"msg": "ä½ å¥½", "items": [1, 2, 3], "ok": true}]]></body>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="GET" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/r/png" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:14.686Z" startTimeMillis="1793743874686" requestBeginTime="2026-11-03T22:11:14.686Z" requestBeginTimeMillis="1793743874686" requestTime="2026-11-03T22:11:14.686Z" requestTimeMillis="1793743874686" responseTime="2026-11-03T22:11:14.709Z" responseTimeMillis="1793743874709" endTime="2026-11-03T22:11:14.749Z" endTimeMillis="1793743874749" duration="63" requestDuration="0" responseDuration="40" latency="23" overallSpeed="5746" requestSpeed="0" responseSpeed="5325" totalSize="362">
+    <request headers="149" body="0">
+      <headers>
+        <first-line><![CDATA[GET /r/png HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, br, zstd</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+    </request>
+    <response status="200" headers="137" body="76" mime-type="image/png">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:14 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>image/png</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>76</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body encoding="base64"><![CDATA[iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAIAAAD91JpzAAAAE0lEQVR4nGP4z8DwnwGM/zMwAAAf7gP9NRsAMwAAAABJRU5ErkJggg==]]></body>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="GET" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/r/jpeg" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:14.758Z" startTimeMillis="1793743874758" requestBeginTime="2026-11-03T22:11:14.760Z" requestBeginTimeMillis="1793743874760" requestTime="2026-11-03T22:11:14.760Z" requestTimeMillis="1793743874760" responseTime="2026-11-03T22:11:14.781Z" responseTimeMillis="1793743874781" endTime="2026-11-03T22:11:14.821Z" endTimeMillis="1793743874821" duration="61" requestDuration="0" responseDuration="40" latency="21" overallSpeed="5081" requestSpeed="0" responseSpeed="4000" totalSize="310">
+    <request headers="150" body="0">
+      <headers>
+        <first-line><![CDATA[GET /r/jpeg HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, br, zstd</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+    </request>
+    <response status="200" headers="138" body="22" mime-type="image/jpeg">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:14 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>image/jpeg</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>22</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body encoding="base64"><![CDATA[/9j/4AAQSkZJRgABAQAAAQABAAD/2Q==]]></body>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="GET" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/r/png-as-octet" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:14.830Z" startTimeMillis="1793743874830" requestBeginTime="2026-11-03T22:11:14.830Z" requestBeginTimeMillis="1793743874830" requestTime="2026-11-03T22:11:14.830Z" requestTimeMillis="1793743874830" responseTime="2026-11-03T22:11:14.861Z" responseTimeMillis="1793743874861" endTime="2026-11-03T22:11:14.901Z" endTimeMillis="1793743874901" duration="71" requestDuration="0" responseDuration="40" latency="31" overallSpeed="5436" requestSpeed="0" responseSpeed="5700" totalSize="386">
+    <request headers="158" body="0">
+      <headers>
+        <first-line><![CDATA[GET /r/png-as-octet HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, br, zstd</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+    </request>
+    <response status="200" headers="152" body="76" mime-type="application/octet-stream">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:14 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/octet-stream</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>76</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body encoding="base64"><![CDATA[iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAIAAAD91JpzAAAAE0lEQVR4nGP4z8DwnwGM/zMwAAAf7gP9NRsAMwAAAABJRU5ErkJggg==]]></body>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="GET" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/r/pdf" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:14.906Z" startTimeMillis="1793743874906" requestBeginTime="2026-11-03T22:11:14.906Z" requestBeginTimeMillis="1793743874906" requestTime="2026-11-03T22:11:14.906Z" requestTimeMillis="1793743874906" responseTime="2026-11-03T22:11:14.936Z" responseTimeMillis="1793743874936" endTime="2026-11-03T22:11:14.978Z" endTimeMillis="1793743874978" duration="72" requestDuration="0" responseDuration="42" latency="30" overallSpeed="4680" requestSpeed="0" responseSpeed="4476" totalSize="337">
+    <request headers="149" body="0">
+      <headers>
+        <first-line><![CDATA[GET /r/pdf HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, br, zstd</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+    </request>
+    <response status="200" headers="143" body="45" mime-type="application/pdf">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:14 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/pdf</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>45</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[%PDF-1.4
+1 0 obj<<>>endobj
+trailer<<>>
+%%EOF
+]]></body>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="GET" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/r/zip" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:14.981Z" startTimeMillis="1793743874981" requestBeginTime="2026-11-03T22:11:14.982Z" requestBeginTimeMillis="1793743874982" requestTime="2026-11-03T22:11:14.982Z" requestTimeMillis="1793743874982" responseTime="2026-11-03T22:11:15.002Z" responseTimeMillis="1793743875002" endTime="2026-11-03T22:11:15.045Z" endTimeMillis="1793743875045" duration="63" requestDuration="0" responseDuration="43" latency="20" overallSpeed="4984" requestSpeed="0" responseSpeed="3837" totalSize="314">
+    <request headers="149" body="0">
+      <headers>
+        <first-line><![CDATA[GET /r/zip HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, br, zstd</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+    </request>
+    <response status="200" headers="143" body="22" mime-type="application/zip">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:15 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/zip</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>22</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body encoding="base64"><![CDATA[UEsFBgAAAAAAAAAAAAAAAAAAAAAAAA==]]></body>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="GET" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/r/gbk-html" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:15.046Z" startTimeMillis="1793743875046" requestBeginTime="2026-11-03T22:11:15.047Z" requestBeginTimeMillis="1793743875047" requestTime="2026-11-03T22:11:15.047Z" requestTimeMillis="1793743875047" responseTime="2026-11-03T22:11:15.071Z" responseTimeMillis="1793743875071" endTime="2026-11-03T22:11:15.113Z" endTimeMillis="1793743875113" duration="66" requestDuration="0" responseDuration="42" latency="24" overallSpeed="4833" requestSpeed="0" responseSpeed="3928" totalSize="319">
+    <request headers="154" body="0">
+      <headers>
+        <first-line><![CDATA[GET /r/gbk-html HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, br, zstd</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+    </request>
+    <response status="200" headers="150" body="15" mime-type="text/html" charset="gbk">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:15 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>text/html; charset=gbk</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>15</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[<p>中文页面</p>]]></body>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="GET" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/r/xml" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:15.114Z" startTimeMillis="1793743875114" requestBeginTime="2026-11-03T22:11:15.114Z" requestBeginTimeMillis="1793743875114" requestTime="2026-11-03T22:11:15.114Z" requestTimeMillis="1793743875114" responseTime="2026-11-03T22:11:15.138Z" responseTimeMillis="1793743875138" endTime="2026-11-03T22:11:15.181Z" endTimeMillis="1793743875181" duration="67" requestDuration="0" responseDuration="43" latency="24" overallSpeed="4895" requestSpeed="0" responseSpeed="4162" totalSize="328">
+    <request headers="149" body="0">
+      <headers>
+        <first-line><![CDATA[GET /r/xml HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, br, zstd</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+    </request>
+    <response status="200" headers="143" body="36" mime-type="application/xml">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:15 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/xml</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>36</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[<?xml version='1.0'?><a><b>1</b></a>]]></body>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="GET" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/r/proto" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:15.182Z" startTimeMillis="1793743875182" requestBeginTime="2026-11-03T22:11:15.182Z" requestBeginTimeMillis="1793743875182" requestTime="2026-11-03T22:11:15.182Z" requestTimeMillis="1793743875182" responseTime="2026-11-03T22:11:15.208Z" responseTimeMillis="1793743875208" endTime="2026-11-03T22:11:15.249Z" endTimeMillis="1793743875249" duration="67" requestDuration="0" responseDuration="41" latency="26" overallSpeed="4641" requestSpeed="0" responseSpeed="3902" totalSize="311">
+    <request headers="151" body="0">
+      <headers>
+        <first-line><![CDATA[GET /r/proto HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, br, zstd</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+    </request>
+    <response status="200" headers="150" body="10" mime-type="application/x-protobuf">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:15 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/x-protobuf</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>10</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body encoding="base64"><![CDATA[CJYBEgVoZWxsbw==]]></body>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="GET" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/r/empty-json" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:15.250Z" startTimeMillis="1793743875250" requestBeginTime="2026-11-03T22:11:15.250Z" requestBeginTimeMillis="1793743875250" requestTime="2026-11-03T22:11:15.250Z" requestTimeMillis="1793743875250" responseTime="2026-11-03T22:11:15.285Z" responseTimeMillis="1793743875285" endTime="2026-11-03T22:11:15.285Z" endTimeMillis="1793743875285" duration="35" requestDuration="0" responseDuration="0" latency="35" overallSpeed="8542" requestSpeed="0" responseSpeed="0" totalSize="299">
+    <request headers="156" body="0">
+      <headers>
+        <first-line><![CDATA[GET /r/empty-json HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, br, zstd</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+    </request>
+    <response status="200" headers="143" body="0" mime-type="application/json">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:15 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/json</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>0</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[]]></body>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="GET" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/r/sse" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:15.286Z" startTimeMillis="1793743875286" requestBeginTime="2026-11-03T22:11:15.286Z" requestBeginTimeMillis="1793743875286" requestTime="2026-11-03T22:11:15.286Z" requestTimeMillis="1793743875286" responseTime="2026-11-03T22:11:15.306Z" responseTimeMillis="1793743875306" endTime="2026-11-03T22:11:15.349Z" endTimeMillis="1793743875349" duration="63" requestDuration="0" responseDuration="43" latency="20" overallSpeed="5142" requestSpeed="0" responseSpeed="4069" totalSize="324">
+    <request headers="149" body="0">
+      <headers>
+        <first-line><![CDATA[GET /r/sse HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, br, zstd</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+    </request>
+    <response status="200" headers="145" body="30" mime-type="text/event-stream">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:15 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>text/event-stream</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>30</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[data: {"a":1}
+
+data: {"a":2}
+
+]]></body>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="GET" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/r/gzip-png" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:15.350Z" startTimeMillis="1793743875350" requestBeginTime="2026-11-03T22:11:15.350Z" requestBeginTimeMillis="1793743875350" requestTime="2026-11-03T22:11:15.350Z" requestTimeMillis="1793743875350" responseTime="2026-11-03T22:11:15.371Z" responseTimeMillis="1793743875371" endTime="2026-11-03T22:11:15.413Z" endTimeMillis="1793743875413" duration="63" requestDuration="0" responseDuration="42" latency="21" overallSpeed="6412" requestSpeed="0" responseSpeed="5952" totalSize="404">
+    <request headers="154" body="0">
+      <headers>
+        <first-line><![CDATA[GET /r/gzip-png HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, br, zstd</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+    </request>
+    <response status="200" headers="161" body="89" mime-type="image/png" contentEncoding="gzip">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:15 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>image/png</value>
+        </header>
+        <header>
+          <name>Content-Encoding</name>
+          <value>gzip</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>89</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body decoded="true" encoding="base64"><![CDATA[iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAIAAAD91JpzAAAAE0lEQVR4nGP4z8DwnwGM/zMwAAAf7gP9NRsAMwAAAABJRU5ErkJggg==]]></body>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="GET" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/r/204" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:15.414Z" startTimeMillis="1793743875414" requestBeginTime="2026-11-03T22:11:15.415Z" requestBeginTimeMillis="1793743875415" requestTime="2026-11-03T22:11:15.415Z" requestTimeMillis="1793743875415" responseTime="2026-11-03T22:11:15.436Z" responseTimeMillis="1793743875436" endTime="2026-11-03T22:11:15.436Z" endTimeMillis="1793743875436" duration="21" requestDuration="0" responseDuration="0" latency="21" overallSpeed="11857" requestSpeed="0" responseSpeed="0" totalSize="249">
+    <request headers="149" body="0">
+      <headers>
+        <first-line><![CDATA[GET /r/204 HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, br, zstd</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+    </request>
+    <response status="204" headers="100" body="0">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 204 No Content]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:15 GMT</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="GET" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/r/304" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:15.437Z" startTimeMillis="1793743875437" requestBeginTime="2026-11-03T22:11:15.438Z" requestBeginTimeMillis="1793743875438" requestTime="2026-11-03T22:11:15.438Z" requestTimeMillis="1793743875438" responseTime="2026-11-03T22:11:15.458Z" responseTimeMillis="1793743875458" endTime="2026-11-03T22:11:15.458Z" endTimeMillis="1793743875458" duration="20" requestDuration="0" responseDuration="0" latency="20" overallSpeed="13200" requestSpeed="0" responseSpeed="0" totalSize="264">
+    <request headers="149" body="0">
+      <headers>
+        <first-line><![CDATA[GET /r/304 HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, br, zstd</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+    </request>
+    <response status="304" headers="115" body="0">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 304 Not Modified]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:15 GMT</value>
+        </header>
+        <header>
+          <name>ETag</name>
+          <value>&quot;abc&quot;</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="GET" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/r/json" query="q=%E4%B8%AD%E6%96%87+%E6%90%9C%E7%B4%A2&amp;list=a&amp;list=b&amp;empty=" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:15.459Z" startTimeMillis="1793743875459" requestBeginTime="2026-11-03T22:11:15.460Z" requestBeginTimeMillis="1793743875460" requestTime="2026-11-03T22:11:15.460Z" requestTimeMillis="1793743875460" responseTime="2026-11-03T22:11:15.480Z" responseTimeMillis="1793743875480" endTime="2026-11-03T22:11:15.521Z" endTimeMillis="1793743875521" duration="61" requestDuration="0" responseDuration="41" latency="20" overallSpeed="7016" requestSpeed="0" responseSpeed="5073" totalSize="428">
+    <request headers="220" body="0">
+      <headers>
+        <first-line><![CDATA[GET /r/json?q=%E4%B8%AD%E6%96%87+%E6%90%9C%E7%B4%A2&list=a&list=b&empty= HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, deflate, br, zstd</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+    </request>
+    <response status="200" headers="159" body="49" mime-type="application/json" charset="utf-8">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:15 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/json; charset=utf-8</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>49</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[{"msg": "你好", "items": [1, 2, 3], "ok": true}]]></body>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="POST" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/u/json" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:15.522Z" startTimeMillis="1793743875522" requestBeginTime="2026-11-03T22:11:15.523Z" requestBeginTimeMillis="1793743875523" requestTime="2026-11-03T22:11:15.523Z" requestTimeMillis="1793743875523" responseTime="2026-11-03T22:11:15.523Z" responseTimeMillis="1793743875523" endTime="2026-11-03T22:11:15.565Z" endTimeMillis="1793743875565" duration="42" requestDuration="0" responseDuration="42" latency="0" overallSpeed="11452" requestSpeed="0" responseSpeed="5071" totalSize="481">
+    <request headers="227" body="41" mime-type="application/json" charset="utf-8">
+      <headers>
+        <first-line><![CDATA[POST /u/json HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, deflate, br, zstd</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/json; charset=utf-8</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>41</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[{"user": "张三", "pwd": "p@ss", "n": 1}]]></body>
+    </request>
+    <response status="200" headers="144" body="69" mime-type="application/json">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:15 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/json</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>69</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[{"received": 41, "ct": "application/json; charset=utf-8", "ce": null}]]></body>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="POST" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/u/gzip-json" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:15.566Z" startTimeMillis="1793743875566" requestBeginTime="2026-11-03T22:11:15.567Z" requestBeginTimeMillis="1793743875567" requestTime="2026-11-03T22:11:15.567Z" requestTimeMillis="1793743875567" responseTime="2026-11-03T22:11:15.567Z" responseTimeMillis="1793743875567" endTime="2026-11-03T22:11:15.609Z" endTimeMillis="1793743875609" duration="42" requestDuration="0" responseDuration="42" latency="0" overallSpeed="11833" requestSpeed="0" responseSpeed="4761" totalSize="497">
+    <request headers="241" body="56" mime-type="application/json" contentEncoding="gzip">
+      <headers>
+        <first-line><![CDATA[POST /u/gzip-json HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, deflate, br, zstd</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/json</value>
+        </header>
+        <header>
+          <name>Content-Encoding</name>
+          <value>gzip</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>56</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body decoded="true"><![CDATA[{"user": "å¼ ä¸&#137;", "pwd": "p@ss", "n": 1}]]></body>
+    </request>
+    <response status="200" headers="144" body="56" mime-type="application/json">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:15 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/json</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>56</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[{"received": 56, "ct": "application/json", "ce": "gzip"}]]></body>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="POST" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/u/br-json" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:15.614Z" startTimeMillis="1793743875614" requestBeginTime="2026-11-03T22:11:15.615Z" requestBeginTimeMillis="1793743875615" requestTime="2026-11-03T22:11:15.615Z" requestTimeMillis="1793743875615" responseTime="2026-11-03T22:11:15.615Z" responseTimeMillis="1793743875615" endTime="2026-11-03T22:11:15.657Z" endTimeMillis="1793743875657" duration="42" requestDuration="0" responseDuration="42" latency="0" overallSpeed="11428" requestSpeed="0" responseSpeed="4714" totalSize="480">
+    <request headers="237" body="45" mime-type="application/json" contentEncoding="br">
+      <headers>
+        <first-line><![CDATA[POST /u/br-json HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, deflate, br, zstd</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/json</value>
+        </header>
+        <header>
+          <name>Content-Encoding</name>
+          <value>br</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>45</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body decoded="true"><![CDATA[{"user": "å¼ ä¸&#137;", "pwd": "p@ss", "n": 1}]]></body>
+    </request>
+    <response status="200" headers="144" body="54" mime-type="application/json">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:15 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/json</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>54</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[{"received": 45, "ct": "application/json", "ce": "br"}]]></body>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="POST" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/u/zstd-json" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:15.658Z" startTimeMillis="1793743875658" requestBeginTime="2026-11-03T22:11:15.659Z" requestBeginTimeMillis="1793743875659" requestTime="2026-11-03T22:11:15.659Z" requestTimeMillis="1793743875659" responseTime="2026-11-03T22:11:15.659Z" responseTimeMillis="1793743875659" endTime="2026-11-03T22:11:15.701Z" endTimeMillis="1793743875701" duration="42" requestDuration="0" responseDuration="42" latency="0" overallSpeed="11690" requestSpeed="0" responseSpeed="4761" totalSize="491">
+    <request headers="241" body="50" mime-type="application/json" contentEncoding="zstd">
+      <headers>
+        <first-line><![CDATA[POST /u/zstd-json HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, deflate, br, zstd</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/json</value>
+        </header>
+        <header>
+          <name>Content-Encoding</name>
+          <value>zstd</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>50</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body encoding="base64"><![CDATA[KLUv/SApSQEAeyJ1c2VyIjogIuW8oOS4iSIsICJwd2QiOiAicEBzcyIsICJuIjogMX0=]]></body>
+    </request>
+    <response status="200" headers="144" body="56" mime-type="application/json">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:15 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/json</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>56</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[{"received": 50, "ct": "application/json", "ce": "zstd"}]]></body>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="POST" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/u/deflate-json" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:15.702Z" startTimeMillis="1793743875702" requestBeginTime="2026-11-03T22:11:15.702Z" requestBeginTimeMillis="1793743875702" requestTime="2026-11-03T22:11:15.703Z" requestTimeMillis="1793743875703" responseTime="2026-11-03T22:11:15.703Z" responseTimeMillis="1793743875703" endTime="2026-11-03T22:11:15.745Z" endTimeMillis="1793743875745" duration="43" requestDuration="1" responseDuration="42" latency="0" overallSpeed="11511" requestSpeed="292000" responseSpeed="4833" totalSize="495">
+    <request headers="247" body="45" mime-type="application/json" contentEncoding="deflate">
+      <headers>
+        <first-line><![CDATA[POST /u/deflate-json HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, deflate, br, zstd</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/json</value>
+        </header>
+        <header>
+          <name>Content-Encoding</name>
+          <value>deflate</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>45</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body decoded="true"><![CDATA[{"user": "å¼ ä¸&#137;", "pwd": "p@ss", "n": 1}]]></body>
+    </request>
+    <response status="200" headers="144" body="59" mime-type="application/json">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:15 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/json</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>59</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[{"received": 45, "ct": "application/json", "ce": "deflate"}]]></body>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="POST" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/u/form-utf8" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:15.747Z" startTimeMillis="1793743875747" requestBeginTime="2026-11-03T22:11:15.748Z" requestBeginTimeMillis="1793743875748" requestTime="2026-11-03T22:11:15.748Z" requestTimeMillis="1793743875748" responseTime="2026-11-03T22:11:15.749Z" responseTimeMillis="1793743875749" endTime="2026-11-03T22:11:15.789Z" endTimeMillis="1793743875789" duration="41" requestDuration="0" responseDuration="40" latency="1" overallSpeed="12024" requestSpeed="0" responseSpeed="5375" totalSize="493">
+    <request headers="234" body="44" mime-type="application/x-www-form-urlencoded">
+      <headers>
+        <first-line><![CDATA[POST /u/form-utf8 HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, deflate, br, zstd</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/x-www-form-urlencoded</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>44</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[name=%E5%BC%A0%E4%B8%89&tags=a&tags=b&empty=]]></body>
+    </request>
+    <response status="200" headers="144" body="71" mime-type="application/json">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:15 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/json</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>71</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[{"received": 44, "ct": "application/x-www-form-urlencoded", "ce": null}]]></body>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="POST" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/u/form-gbk" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:15.794Z" startTimeMillis="1793743875794" requestBeginTime="2026-11-03T22:11:15.795Z" requestBeginTimeMillis="1793743875795" requestTime="2026-11-03T22:11:15.795Z" requestTimeMillis="1793743875795" responseTime="2026-11-03T22:11:15.797Z" responseTimeMillis="1793743875797" endTime="2026-11-03T22:11:15.842Z" endTimeMillis="1793743875842" duration="47" requestDuration="0" responseDuration="45" latency="2" overallSpeed="10489" requestSpeed="0" responseSpeed="5066" totalSize="493">
+    <request headers="246" body="19" mime-type="application/x-www-form-urlencoded" charset="GBK">
+      <headers>
+        <first-line><![CDATA[POST /u/form-gbk HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, deflate, br, zstd</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/x-www-form-urlencoded; charset=GBK</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>19</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[name=张三&city=北京]]></body>
+    </request>
+    <response status="200" headers="144" body="84" mime-type="application/json">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:15 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/json</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>84</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[{"received": 19, "ct": "application/x-www-form-urlencoded; charset=GBK", "ce": null}]]></body>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="POST" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/u/multipart" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:15.843Z" startTimeMillis="1793743875843" requestBeginTime="2026-11-03T22:11:15.843Z" requestBeginTimeMillis="1793743875843" requestTime="2026-11-03T22:11:15.843Z" requestTimeMillis="1793743875843" responseTime="2026-11-03T22:11:15.844Z" responseTimeMillis="1793743875844" endTime="2026-11-03T22:11:15.885Z" endTimeMillis="1793743875885" duration="42" requestDuration="0" responseDuration="41" latency="1" overallSpeed="26261" requestSpeed="0" responseSpeed="6000" totalSize="1103">
+    <request headers="264" body="593" mime-type="multipart/form-data">
+      <headers>
+        <first-line><![CDATA[POST /u/multipart HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, deflate, br, zstd</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>593</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>multipart/form-data; boundary=fc0c44801094ba1487ad219b497b5dac</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body encoding="base64"><![CDATA[LS1mYzBjNDQ4MDEwOTRiYTE0ODdhZDIxOWI0OTdiNWRhYw0KQ29udGVudC1EaXNwb3NpdGlvbjogZm9ybS1kYXRhOyBuYW1lPSJtZXRhIg0KDQp7ImFsYnVtIjogIlx1NzZmOFx1NTE4YyJ9DQotLWZjMGM0NDgwMTA5NGJhMTQ4N2FkMjE5YjQ5N2I1ZGFjDQpDb250ZW50LURpc3Bvc2l0aW9uOiBmb3JtLWRhdGE7IG5hbWU9InRpdGxlIg0KDQrnhafniYcNCi0tZmMwYzQ0ODAxMDk0YmExNDg3YWQyMTliNDk3YjVkYWMNCkNvbnRlbnQtRGlzcG9zaXRpb246IGZvcm0tZGF0YTsgbmFtZT0icGhvdG8iOyBmaWxlbmFtZT0i5aS05YOPLnBuZyINCkNvbnRlbnQtVHlwZTogaW1hZ2UvcG5nDQoNColQTkcNChoKAAAADUlIRFIAAAACAAAAAggCAAAA/dSacwAAABNJREFUeJxj+M/A8J8BjP8zMAAAH+4D/TUbADMAAAAASUVORK5CYIINCi0tZmMwYzQ0ODAxMDk0YmExNDg3YWQyMTliNDk3YjVkYWMNCkNvbnRlbnQtRGlzcG9zaXRpb246IGZvcm0tZGF0YTsgbmFtZT0iZG9jIjsgZmlsZW5hbWU9ImEudHh0Ig0KQ29udGVudC1UeXBlOiB0ZXh0L3BsYWluDQoNCnBsYWluIHRleHQgZmlsZQ0KLS1mYzBjNDQ4MDEwOTRiYTE0ODdhZDIxOWI0OTdiNWRhYy0tDQo=]]></body>
+    </request>
+    <response status="200" headers="145" body="101" mime-type="application/json">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:15 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/json</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>101</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[{"received": 593, "ct": "multipart/form-data; boundary=fc0c44801094ba1487ad219b497b5dac", "ce": null}]]></body>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="PUT" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/u/raw-png" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:15.887Z" startTimeMillis="1793743875887" requestBeginTime="2026-11-03T22:11:15.887Z" requestBeginTimeMillis="1793743875887" requestTime="2026-11-03T22:11:15.887Z" requestTimeMillis="1793743875887" responseTime="2026-11-03T22:11:15.888Z" responseTimeMillis="1793743875888" endTime="2026-11-03T22:11:15.929Z" endTimeMillis="1793743875929" duration="42" requestDuration="0" responseDuration="41" latency="1" overallSpeed="11285" requestSpeed="0" responseSpeed="4658" totalSize="474">
+    <request headers="207" body="76" mime-type="image/png">
+      <headers>
+        <first-line><![CDATA[PUT /u/raw-png HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, deflate, br, zstd</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>image/png</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>76</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body encoding="base64"><![CDATA[iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAIAAAD91JpzAAAAE0lEQVR4nGP4z8DwnwGM/zMwAAAf7gP9NRsAMwAAAABJRU5ErkJggg==]]></body>
+    </request>
+    <response status="200" headers="144" body="47" mime-type="application/json">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:15 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/json</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>47</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[{"received": 76, "ct": "image/png", "ce": null}]]></body>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="POST" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/u/octet-png" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:15.930Z" startTimeMillis="1793743875930" requestBeginTime="2026-11-03T22:11:15.930Z" requestBeginTimeMillis="1793743875930" requestTime="2026-11-03T22:11:15.930Z" requestTimeMillis="1793743875930" responseTime="2026-11-03T22:11:15.931Z" responseTimeMillis="1793743875931" endTime="2026-11-03T22:11:15.973Z" endTimeMillis="1793743875973" duration="43" requestDuration="0" responseDuration="42" latency="1" overallSpeed="11790" requestSpeed="0" responseSpeed="4904" totalSize="507">
+    <request headers="225" body="76" mime-type="application/octet-stream">
+      <headers>
+        <first-line><![CDATA[POST /u/octet-png HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, deflate, br, zstd</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/octet-stream</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>76</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body encoding="base64"><![CDATA[iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAIAAAD91JpzAAAAE0lEQVR4nGP4z8DwnwGM/zMwAAAf7gP9NRsAMwAAAABJRU5ErkJggg==]]></body>
+    </request>
+    <response status="200" headers="144" body="62" mime-type="application/json">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:15 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/json</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>62</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[{"received": 76, "ct": "application/octet-stream", "ce": null}]]></body>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="POST" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/u/proto" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:15.974Z" startTimeMillis="1793743875974" requestBeginTime="2026-11-03T22:11:15.975Z" requestBeginTimeMillis="1793743875975" requestTime="2026-11-03T22:11:15.975Z" requestTimeMillis="1793743875975" responseTime="2026-11-03T22:11:15.975Z" responseTimeMillis="1793743875975" endTime="2026-11-03T22:11:16.025Z" endTimeMillis="1793743876025" duration="50" requestDuration="0" responseDuration="50" latency="0" overallSpeed="8660" requestSpeed="0" responseSpeed="4080" totalSize="433">
+    <request headers="219" body="10" mime-type="application/x-protobuf">
+      <headers>
+        <first-line><![CDATA[POST /u/proto HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, deflate, br, zstd</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/x-protobuf</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>10</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body encoding="base64"><![CDATA[CJYBEgVoZWxsbw==]]></body>
+    </request>
+    <response status="200" headers="144" body="60" mime-type="application/json">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:15 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/json</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>60</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[{"received": 10, "ct": "application/x-protobuf", "ce": null}]]></body>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="POST" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/u/text" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:16.027Z" startTimeMillis="1793743876027" requestBeginTime="2026-11-03T22:11:16.027Z" requestBeginTimeMillis="1793743876027" requestTime="2026-11-03T22:11:16.027Z" requestTimeMillis="1793743876027" responseTime="2026-11-03T22:11:16.028Z" responseTimeMillis="1793743876028" endTime="2026-11-03T22:11:16.069Z" endTimeMillis="1793743876069" duration="42" requestDuration="0" responseDuration="41" latency="1" overallSpeed="10547" requestSpeed="0" responseSpeed="5048" totalSize="443">
+    <request headers="221" body="15" mime-type="text/plain" charset="utf-8">
+      <headers>
+        <first-line><![CDATA[POST /u/text HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, deflate, br, zstd</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>text/plain; charset=utf-8</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>15</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[纯文本内容]]></body>
+    </request>
+    <response status="200" headers="144" body="63" mime-type="application/json">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:16 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/json</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>63</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[{"received": 15, "ct": "text/plain; charset=utf-8", "ce": null}]]></body>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="POST" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/u/json-bom" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:16.070Z" startTimeMillis="1793743876070" requestBeginTime="2026-11-03T22:11:16.071Z" requestBeginTimeMillis="1793743876071" requestTime="2026-11-03T22:11:16.071Z" requestTimeMillis="1793743876071" responseTime="2026-11-03T22:11:16.071Z" responseTimeMillis="1793743876071" endTime="2026-11-03T22:11:16.113Z" endTimeMillis="1793743876113" duration="42" requestDuration="0" responseDuration="42" latency="0" overallSpeed="10904" requestSpeed="0" responseSpeed="4714" totalSize="458">
+    <request headers="216" body="44" mime-type="application/json">
+      <headers>
+        <first-line><![CDATA[POST /u/json-bom HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, deflate, br, zstd</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/json</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>44</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[ï»¿{"user": "å¼ ä¸&#137;", "pwd": "p@ss", "n": 1}]]></body>
+    </request>
+    <response status="200" headers="144" body="54" mime-type="application/json">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:16 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/json</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>54</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[{"received": 44, "ct": "application/json", "ce": null}]]></body>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="POST" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/u/empty" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:16.114Z" startTimeMillis="1793743876114" requestBeginTime="2026-11-03T22:11:16.115Z" requestBeginTimeMillis="1793743876115" requestTime="2026-11-03T22:11:16.115Z" requestTimeMillis="1793743876115" responseTime="2026-11-03T22:11:16.115Z" responseTimeMillis="1793743876115" endTime="2026-11-03T22:11:16.157Z" endTimeMillis="1793743876157" duration="42" requestDuration="0" responseDuration="42" latency="0" overallSpeed="9738" requestSpeed="0" responseSpeed="4690" totalSize="409">
+    <request headers="212" body="0" mime-type="application/json">
+      <headers>
+        <first-line><![CDATA[POST /u/empty HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>0</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, deflate, br, zstd</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/json</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[]]></body>
+    </request>
+    <response status="200" headers="144" body="53" mime-type="application/json">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:16 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/json</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>53</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[{"received": 0, "ct": "application/json", "ce": null}]]></body>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="POST" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/u/json-as-text" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:16.158Z" startTimeMillis="1793743876158" requestBeginTime="2026-11-03T22:11:16.158Z" requestBeginTimeMillis="1793743876158" requestTime="2026-11-03T22:11:16.158Z" requestTimeMillis="1793743876158" responseTime="2026-11-03T22:11:16.159Z" responseTimeMillis="1793743876159" endTime="2026-11-03T22:11:16.201Z" endTimeMillis="1793743876201" duration="43" requestDuration="0" responseDuration="42" latency="1" overallSpeed="10395" requestSpeed="0" responseSpeed="4571" totalSize="447">
+    <request headers="214" body="41" mime-type="text/plain">
+      <headers>
+        <first-line><![CDATA[POST /u/json-as-text HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, deflate, br, zstd</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>text/plain</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>41</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[{"user": "å¼ ä¸&#137;", "pwd": "p@ss", "n": 1}]]></body>
+    </request>
+    <response status="200" headers="144" body="48" mime-type="application/json">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:16 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/json</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>48</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[{"received": 41, "ct": "text/plain", "ce": null}]]></body>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="POST" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/u/xml" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:16.202Z" startTimeMillis="1793743876202" requestBeginTime="2026-11-03T22:11:16.202Z" requestBeginTimeMillis="1793743876202" requestTime="2026-11-03T22:11:16.203Z" requestTimeMillis="1793743876203" responseTime="2026-11-03T22:11:16.203Z" responseTimeMillis="1793743876203" endTime="2026-11-03T22:11:16.245Z" endTimeMillis="1793743876245" duration="43" requestDuration="1" responseDuration="42" latency="0" overallSpeed="12511" requestSpeed="332000" responseSpeed="4904" totalSize="538">
+    <request headers="219" body="113" mime-type="text/xml" charset="utf-8">
+      <headers>
+        <first-line><![CDATA[POST /u/xml HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, deflate, br, zstd</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>text/xml; charset=utf-8</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>113</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[<?xml version='1.0'?><soap:Envelope xmlns:soap='x'><soap:Body><Login><u>a</u></Login></soap:Body></soap:Envelope>]]></body>
+    </request>
+    <response status="200" headers="144" body="62" mime-type="application/json">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:16 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/json</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>62</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[{"received": 113, "ct": "text/xml; charset=utf-8", "ce": null}]]></body>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="POST" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/u/graphql" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:16.246Z" startTimeMillis="1793743876246" requestBeginTime="2026-11-03T22:11:16.247Z" requestBeginTimeMillis="1793743876247" requestTime="2026-11-03T22:11:16.247Z" requestTimeMillis="1793743876247" responseTime="2026-11-03T22:11:16.247Z" responseTimeMillis="1793743876247" endTime="2026-11-03T22:11:16.289Z" endTimeMillis="1793743876289" duration="42" requestDuration="0" responseDuration="42" latency="0" overallSpeed="11023" requestSpeed="0" responseSpeed="4714" totalSize="463">
+    <request headers="215" body="50" mime-type="application/json">
+      <headers>
+        <first-line><![CDATA[POST /u/graphql HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, deflate, br, zstd</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/json</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>50</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[{"query": "{ me { id } }", "variables": {"id": 1}}]]></body>
+    </request>
+    <response status="200" headers="144" body="54" mime-type="application/json">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:16 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/json</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>54</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[{"received": 50, "ct": "application/json", "ce": null}]]></body>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="POST" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/u/chunked" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:16.290Z" startTimeMillis="1793743876290" requestBeginTime="2026-11-03T22:11:16.291Z" requestBeginTimeMillis="1793743876291" requestTime="2026-11-03T22:11:16.291Z" requestTimeMillis="1793743876291" responseTime="2026-11-03T22:11:16.292Z" responseTimeMillis="1793743876292" endTime="2026-11-03T22:11:16.333Z" endTimeMillis="1793743876333" duration="42" requestDuration="0" responseDuration="41" latency="1" overallSpeed="10452" requestSpeed="0" responseSpeed="4829" totalSize="439">
+    <request headers="223" body="18" mime-type="application/json">
+      <headers>
+        <first-line><![CDATA[POST /u/chunked HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, deflate, br, zstd</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/json</value>
+        </header>
+        <header>
+          <name>Transfer-Encoding</name>
+          <value>chunked</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[{"part":"chunked"}]]></body>
+    </request>
+    <response status="200" headers="144" body="54" mime-type="application/json">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:16 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/json</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>54</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[{"received": 18, "ct": "application/json", "ce": null}]]></body>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="PATCH" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/u/patch" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:16.335Z" startTimeMillis="1793743876335" requestBeginTime="2026-11-03T22:11:16.335Z" requestBeginTimeMillis="1793743876335" requestTime="2026-11-03T22:11:16.335Z" requestTimeMillis="1793743876335" responseTime="2026-11-03T22:11:16.335Z" responseTimeMillis="1793743876335" endTime="2026-11-03T22:11:16.377Z" endTimeMillis="1793743876377" duration="42" requestDuration="0" responseDuration="42" latency="0" overallSpeed="10190" requestSpeed="0" responseSpeed="4714" totalSize="428">
+    <request headers="214" body="16" mime-type="application/json">
+      <headers>
+        <first-line><![CDATA[PATCH /u/patch HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, deflate, br, zstd</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>16</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/json</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[{"op":"replace"}]]></body>
+    </request>
+    <response status="200" headers="144" body="54" mime-type="application/json">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:16 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/json</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>54</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[{"received": 16, "ct": "application/json", "ce": null}]]></body>
+    </response>
+  </transaction>
+  <transaction status="COMPLETE" method="POST" protocolVersion="HTTP/1.1" protocol="http" host="127.0.0.1" port="18090" actualPort="18090" path="/u/no-ct" remoteAddress="127.0.0.1/127.0.0.1" clientAddress="/127.0.0.1" clientPort="38586" startTime="2026-11-03T22:11:16.378Z" startTimeMillis="1793743876378" requestBeginTime="2026-11-03T22:11:16.378Z" requestBeginTimeMillis="1793743876378" requestTime="2026-11-03T22:11:16.378Z" requestTimeMillis="1793743876378" responseTime="2026-11-03T22:11:16.381Z" responseTimeMillis="1793743876381" endTime="2026-11-03T22:11:16.421Z" endTimeMillis="1793743876421" duration="43" requestDuration="0" responseDuration="40" latency="3" overallSpeed="8558" requestSpeed="0" responseSpeed="4575" totalSize="368">
+    <request headers="180" body="5">
+      <headers>
+        <first-line><![CDATA[POST /u/no-ct HTTP/1.1]]></first-line>
+        <header>
+          <name>Host</name>
+          <value>127.0.0.1:18090</value>
+        </header>
+        <header>
+          <name>Accept</name>
+          <value>*/*</value>
+        </header>
+        <header>
+          <name>Accept-Encoding</name>
+          <value>gzip, deflate, br, zstd</value>
+        </header>
+        <header>
+          <name>User-Agent</name>
+          <value>python-httpx/0.28.1</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>5</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[raw=1]]></body>
+    </request>
+    <response status="200" headers="144" body="39" mime-type="application/json">
+      <headers>
+        <first-line><![CDATA[HTTP/1.1 200 OK]]></first-line>
+        <header>
+          <name>Server</name>
+          <value>BaseHTTP/0.6 Python/3.13.18</value>
+        </header>
+        <header>
+          <name>Date</name>
+          <value>Tue, 03 Nov 2026 22:11:16 GMT</value>
+        </header>
+        <header>
+          <name>Content-Type</name>
+          <value>application/json</value>
+        </header>
+        <header>
+          <name>Content-Length</name>
+          <value>39</value>
+        </header>
+        <header>
+          <name>Connection</name>
+          <value>keep-alive</value>
+        </header>
+      </headers>
+      <body><![CDATA[{"received": 5, "ct": null, "ce": null}]]></body>
+    </response>
+  </transaction>
+</charles-session>

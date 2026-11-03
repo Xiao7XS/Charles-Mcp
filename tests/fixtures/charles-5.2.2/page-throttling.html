@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>Charles Web Interface</title>
+    <link rel="stylesheet" href="../css/plain.css" />
+</head>
+<body>
+<h1>Charles Web Interface</h1>
+<h2>Throttling</h2>
+<p>Status: Throttling Stopped</p>
+<form method="get" action="activate">
+    Preset:
+    
+    <select name="preset">
+        <option value="">Current</option>
+        <option value="56 kbps Modem">56 kbps Modem</option>
+<option value="256 kbps ISDN&#x2F;DSL">256 kbps ISDN&#x2F;DSL</option>
+<option value="512 kbps ISDN&#x2F;DSL">512 kbps ISDN&#x2F;DSL</option>
+<option value="2 Mbps ADSL">2 Mbps ADSL</option>
+<option value="8 Mbps ADSL2">8 Mbps ADSL2</option>
+<option value="16 Mbps ADSL2+">16 Mbps ADSL2+</option>
+<option value="32 Mbps VDSL">32 Mbps VDSL</option>
+<option value="32 Mbps Fibre">32 Mbps Fibre</option>
+<option value="100 Mbps Fibre">100 Mbps Fibre</option>
+<option value="3G">3G</option>
+<option value="4G">4G</option>
+
+    </select>
+    
+    <input type="submit" value="Activate" />
+</form>
+<form method="get" action="deactivate">
+    <input type="submit" value="Deactivate" />
+</form>
+<ul>
+    <li><a href="../">Back</a></li>
+</ul>
+</body>
+</html>

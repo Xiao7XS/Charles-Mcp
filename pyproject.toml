@@ -1,0 +1,74 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "charles5-mcp"
+version = "1.2.0"
+description = "MCP server for Charles Proxy 5.2.x: live capture, session analysis and reverse-engineering workflows"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+keywords = ["mcp", "charles-proxy", "traffic-analysis", "reverse-engineering", "ai-agent"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Internet :: Proxy Servers",
+    "Topic :: Software Development :: Debuggers",
+]
+# The MCP SDK is supported on both the 1.x (FastMCP) and 2.x (MCPServer)
+# lines through charles5_mcp.compat, so no upper bound is pinned here.
+dependencies = [
+    "mcp>=1.25.0",
+    "httpx>=0.27.0",
+    "pydantic>=2.7.0",
+    "jmespath>=1.0.1",
+    "defusedxml>=0.7.1",
+    "brotli>=1.1.0",
+    "zstandard>=0.23.0",
+    "protobuf>=5.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/Xiao7XS/Charles-Mcp"
+Issues = "https://github.com/Xiao7XS/Charles-Mcp/issues"
+Changelog = "https://github.com/Xiao7XS/Charles-Mcp/blob/main/CHANGELOG.md"
+"Original project" = "https://github.com/heizaheiza/Charles-mcp"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+    "ruff>=0.4.0",
+    "mypy>=1.10.0",
+]
+
+[project.scripts]
+charles5-mcp = "charles5_mcp.main:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["charles5_mcp*"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B"]
+ignore = ["E501", "B008"]
+
+[tool.mypy]
+python_version = "3.10"
+ignore_missing_imports = true
+warn_unused_configs = true
